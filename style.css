@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black
+    
+  }
+  h4{
+    color: white;
+    font-weight: bold;
+    font-size: 18px; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    border: 10px solid #f1f1f1;
+    text-align: center;
+    direction: rtl;
+    position: static;
+    z-index: 80;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+  
+  
+  h1 {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    text-align: center;
+    position: static;
+    z-index: 100;
+  }
